@@ -1,0 +1,109 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    
+  }
+  
+  .title{
+    font-size: 30px;
+    font-family: Arial;
+  }
+  
+  .move-icon{
+    height : 50px;
+  }
+  
+  .move-button{
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+  }
+  
+  .result{
+    font-size : 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  
+  .score{
+    margin-top: 60px;
+  }
+  
+  .reset-score-button{
+    background-color: rgb(183, 182, 182);
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .d1{
+   padding-left: 35%;
+  padding-top: 7%;
+  height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    body{
+      transform: 140%;
+    }
+    .d11 {
+      margin-top: 10%;
+      width: 150%;
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .move-icon {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .result, .score {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  
+    .reset-score-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .d1 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .move-icon {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .result, .score {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .reset-score-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
